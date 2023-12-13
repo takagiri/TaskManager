@@ -58,7 +58,7 @@ fun TaskManager(firstText: String, secondText: String, modifier: Modifier = Modi
         )
         Text(
             text = secondText,
-            fontSize = 32.sp
+            fontSize = 40.sp
         )
     }
     }
