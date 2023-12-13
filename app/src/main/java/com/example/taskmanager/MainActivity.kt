@@ -54,11 +54,11 @@ fun TaskManager(firstText: String, secondText: String, modifier: Modifier = Modi
         Text(
             text = firstText,
             fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(top = 24.dp, bottom = 8.dp)
+            modifier = Modifier.padding(top = 24.dp, bottom = 16.dp)
         )
         Text(
             text = secondText,
-            fontSize = 16.sp
+            fontSize = 8.sp
         )
     }
     }
